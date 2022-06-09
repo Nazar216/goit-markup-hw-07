@@ -430,55 +430,53 @@
     <!-- Модальне вікно -->
 
     <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            
-            
-            <div class="button-thumb">
-                <button class="button-close" data-modal-close>
+        <div class="modal">  
+            <div class="modal__thumb">
+                <button class="modal__button" data-modal-close>
                     <svg width="11px" height="11px">
                         <use href="./image/sprite.svg#icon-close"></use>
                     </svg>
                 </button>
             </div> 
             
-            <h3 class="title-form">Оставьте свои данные, мы вам перезвоним</h3>
+            <h3 class="form-title">Оставьте свои данные, мы вам перезвоним</h3>
 
             <form class="form-modal">
-                                               
-               <div class="form-field">                   
-                    <input class="form-input" type="text" name="name" id="name" placeholder=" ">
-                    <label class="name" for="name">Имя</label>
-                    <svg class="icon" width="18px" height="18px">
+
+               <div class="form-modal__field">                   
+                    <input class="form-modal__input" type="text" name="name" id="name" placeholder=" ">
+                    <label class="form-modal__name" for="name">Имя</label>
+                    <svg class="form-modal__icon" width="18px" height="18px">
                         <use href="./image/sprite.svg#icon-person-black"></use>
                     </svg>
                 </div>
                 
-                <div class="form-field">                   
-                    <input class="form-input" type="tel" name="tel" id="tel" placeholder=" ">
-                    <label class="tel" for="tel">Телефон</label>
-                    <svg class="icon" width="18px" height="18px">
+                <div class="form-modal__field">                   
+                    <input class="form-modal__input" type="tel" name="tel" id="tel" placeholder=" ">
+                    <label class="form-modal__tel" for="tel">Телефон</label>
+                    <svg class="form-modal__icon" width="18px" height="18px">
                         <use href="./image/sprite.svg#icon-phone-black"></use>
                     </svg>
                 </div>
                 
-                <div class="form-field">                   
-                    <input class="form-input" type="email" name="mail" id="mail" placeholder=" ">
-                    <label class="mail" for="mail">Почта</label>
-                    <svg class="icon" width="18px" height="18px">
+                <div class="form-modal__field">                   
+                    <input class="form-modal__input" type="email" name="mail" id="mail" placeholder=" ">
+                    <label class="form-modal__mail" for="mail">Почта</label>
+                    <svg class="form-modal__icon" width="18px" height="18px">
                         <use href="./image/sprite.svg#icon-email-black"></use>
                     </svg>
                 </div>
                 
-                <div class="form-field">
-                    <label class="comment" for="comment">Комментарий</label>
-                    <textarea name="comment" id="comment" placeholder="Введите текст"></textarea>
+                <div class="form-modal__field">
+                    <label class="form-modal__comment" for="comment">Комментарий</label>
+                    <textarea class="form-modal__text" name="comment" id="comment" placeholder="Введите текст"></textarea>
                 </div>
                                
 
                 
-                <label class="policy" for="policy">
+                <label class="form-policy" for="policy">
 
-                    <input class="checkbox" type="checkbox" name="policy" id="policy">
+                    <input class="form-checkbox" type="checkbox" name="policy" id="policy">
                    
                     <svg class="icon-rectangle" width="16px" height="15px">
                         <use href="./image/sprite.svg#icon-rectangle"></use>
@@ -488,12 +486,14 @@
                         <use href="./image/sprite.svg#icon-checkbox-blue"></use>
                     </svg>
 
-                    <span class="form-text">Соглашаюсь с рассылкой и принимаю <a href="" class="link-form">Условия договора</a></span> 
+                    <span class="form-modal__consent">Соглашаюсь с рассылкой и принимаю 
+                        <a href="" class="form-modal__consent-link">Условия договора</a>
+                    </span> 
 
                 </label>
                                
-                <div class="button-form">
-                    <button type="submit">Отправить</button>
+                <div class="form-modal__thumb">
+                    <button class="form-modal__button" type="submit">Отправить</button>
                 </div>
                 
             </form>
