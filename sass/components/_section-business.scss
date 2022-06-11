@@ -1,0 +1,50 @@
+.section-business {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    /* outline: 2px solid tomato; */
+}
+
+.section-title {
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.business-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.business-list__image {
+    position: relative;
+}
+
+.business-list__thumb {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    bottom: 0;
+}
+
+.business-list__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $primary-text-color;
+}
