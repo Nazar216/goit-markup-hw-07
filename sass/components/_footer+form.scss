@@ -32,7 +32,7 @@
     }
 }
 
-.address-city {
+.address{
     display: block;
     margin-bottom: 9px;
     margin-top: 20px;
@@ -44,7 +44,7 @@
     color: $primary-text-color;
 }
 
-.address-city__link {
+.address__link {
     display: block;
     margin-bottom: 9px;
 
@@ -65,7 +65,7 @@
 //     color: $link-text-color;
 // }
 
-.address-city__link{
+.address__link{
     &:hover, &:focus{
         color: $link-text-color;
     }

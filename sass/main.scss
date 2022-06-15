@@ -1,5 +1,6 @@
-@import "./variables";
-@import "./utils";
+@import "./utils/variables";
+@import "./base/normalize";
+@import "./utils/utils";
 @import "./components/page-header";
 @import "./components/section-overlay";
 @import "./components/section-features";
